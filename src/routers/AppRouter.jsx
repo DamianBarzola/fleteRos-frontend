@@ -35,7 +35,7 @@ const AppRouter = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    let token = JSON.parse(localStorage.getItem("jwt"));
+    let token = localStorage.getItem("jwt");
 
     if (token !== null) {
       // try {
@@ -95,7 +95,11 @@ const AppRouter = () => {
             element={<MyShipmentsDriver />}
           />
           <Route exact path="/offer/driver" element={<MyOffersDriver />} />
-          <Route exact path="/offer/delivered/driver" element={<MyOffersDeliveredDriver />} />
+          <Route
+            exact
+            path="/offer/delivered/driver"
+            element={<MyOffersDeliveredDriver />}
+          />
 
           <Route
             exact

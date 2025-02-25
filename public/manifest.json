@@ -3,17 +3,17 @@
   "name": "FleteRos",
   "icons": [
     {
-      "src": "entregaRapida.png",
+      "src": "/entregaRapida.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "entregaRapida.png",
+      "src": "/entregaRapida.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "entregaRapida.png",
+      "src": "/entregaRapida.png",
       "type": "image/png",
       "sizes": "512x512"
     }
